@@ -1,14 +1,11 @@
 <template>
   <div class="app-container">
     <header>
-      <h1 class="site-title">Juegos Clásicos en Nuxt</h1>
+      <h1 class="site-title">JUEGA AHORA</h1>
     </header>
     <main>
-      <slot />
+      <slot/>
     </main>
-    <footer>
-      <p>&copy; {{ new Date().getFullYear() }} - Juego de Piedra, Papel o Tijera</p>
-    </footer>
   </div>
 </template>
 
@@ -20,7 +17,7 @@
 }
 
 header {
-  background-color: #4CAF50;
+  background-color: #1b6496;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -36,10 +33,4 @@ main {
   padding: 2rem 0;
 }
 
-footer {
-  background-color: #f1f1f1;
-  padding: 1rem;
-  text-align: center;
-  color: #666;
-}
 </style>
