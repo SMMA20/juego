@@ -1,0 +1,15 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background-color: #420447;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
